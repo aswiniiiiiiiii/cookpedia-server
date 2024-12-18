@@ -1,7 +1,7 @@
 require('dotenv').config()
 const express = require('express')
 const cors = require('cors')
-const router = require('../cookpedia-server/routes/router')
+const router = require('./routes/router')
 require('../cookpedia-server/config/connection')
 
 const cookpediaServer = express()
